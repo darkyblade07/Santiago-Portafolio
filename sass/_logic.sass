@@ -12,21 +12,16 @@
  
  
 .about
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
+    @extend %middleSection
     height: 100vh
-    background-color:  $aboutbg
+   
 
 .hey
     font-size: 5rem
     @extend %h2M
 
 .web
-    font-size: 3rem
-    font-weight: 200
-    font-style: italic
+    @extend %h3
     color: #be3144
 
   
@@ -60,3 +55,34 @@
     font-size: 1rem
     padding: 1rem 0.5rem
     background: $imageBg
+
+.contact
+    @extend %middleSection
+    height: 80vh
+    
+.coffee
+    @extend %h3
+    color: $heyText
+    font-size: 2rem
+
+.work
+    @extend %h2M
+    font-size: 4rem
+    
+.contact-details 
+    font-size: 1.2rem
+    text-shadow: 2px 2px 1px #1f1f1f
+    transition-property: transform
+    transition-duration: 0.3s
+    transition-timing-function: ease-out
+    transition-delay: 0s 
+    color: $heyText
+
+.footer
+    font-weight: 300
+    display: flex
+    justify-content: space-evenly
+    padding: 2rem
+    background: #303841
+    border-top: 4px solid $navRed
+    color: $heyText

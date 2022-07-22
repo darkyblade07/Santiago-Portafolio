@@ -11,7 +11,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Font awesome Icons-->
 
-        <script src="https://kit.fontawesome.com/c9c9fede75.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9c9fede75.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/main.css">
 
@@ -20,7 +20,7 @@
 
 <body>
 
-    <div class="mainContainer animate fadeInUp one " >
+    <div class="mainContainer  ">
 
         <!-- navbar begins -->
         <section class="navigationBar">
@@ -34,10 +34,10 @@
                 <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link tran" href="#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
+                            <a class="nav-link tran" href="#projects">Projects <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
@@ -51,14 +51,17 @@
 
         <!-- About section begins -->
         <section class="about" id="about">
-            <div class=" container-fluid  ">
+            <div class=" container-fluid animate fadeInUp one  ">
                 <div class="content text-center">
                     <h2 class="hey">Hey I am Santiago</h2>
                     <h3 class="web">a web developer</h3>
                 </div>
                 <div class="buttoms">
-                    <button type="button" class="btn btn-sm btn-outline-light btn-lg text-center">Projects</button>
-                    <button type="button" class="btn btn-sm btn-outline-light btn-lg">Contact me</button>
+                    <a href="#projects" type="button" class="btn btn-sm btn-outline-light btn-lg">Projects</a>
+                    <a href="#contact" type="button" class="btn btn-sm btn-outline-light btn-lg">Contact me</a>
+
+
+
                 </div>
             </div>
         </section>
@@ -86,13 +89,13 @@
                             </a>
                         </div>
                         <div class="col-md-12 col-lg-4">
-                            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank"
+                            <a href="https://github.com/darkyblade07/email-campaign" target="_blank"
                                 class="project project-tile">
                                 <img class="project-image img-fluid"
                                     src="./assets/Batman_cosplay_-_Masked_Mateo_-_Photo_Jonin.jpg" alt="project">
                                 <p class="project-title">
                                     <span class="code">&lt;</span>
-                                    GitHub
+                                    Email Campaign
                                     <span class="code">/&gt;</span>
                                 </p>
                             </a>
@@ -151,46 +154,46 @@
                 </div>
 
             </div>
-    </section>
-    <!-- Projects section ends -->
+        </section>
+        <!-- Projects section ends -->
 
 
-    <!-- Contact section begins -->
-    <section class="contact" id="contact">
-        <div class=" container-fluid  ">
-            <div class="content text-center">
-                <h2 class="work">Let's work together...
-                </h2>
-                <h3 class="coffee mb-5">How do you take your coffee?
+        <!-- Contact section begins -->
+        <section class="contact" id="contact">
+            <div class=" container-fluid  ">
+                <div class="content text-center">
+                    <h2 class="work">Let's work together...
+                    </h2>
+                    <h3 class="coffee mb-5">How do you take your coffee?
 
-                </h3>
+                    </h3>
+                </div>
+
             </div>
-            
-        </div>
-        <div class="contact-links ">
-            <a id="profile-link" href="https://github.com/darkyblade07" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-            <a href="www.linkedin.com/in/santiago-marin-2507511bb" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i> Linkedin</a>
-            <a href="santiagomarinherrera09@gmail.com" class="btn contact-details"><i class="fas fa-envelope-circle-check"></i > Email</a>
-            
-          </div>
-    </section>
+            <div class="contact-links ">
+                <a id="profile-link" href="https://github.com/darkyblade07" target="_blank"
+                    class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/santiago-marin-2507511bb/" target="_blank" class="btn contact-details"><i
+                        class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="mailto:santiagomarinherrera09@gmail.com?subject = Hiring Process" class="btn contact-details"><i
+                        class="fas fa-envelope-circle-check "></i> Email</a>
 
-    <!-- Contact section ends -->
+            </div>
+        </section>
 
-<footer class="footer">
+        <!-- Contact section ends -->
 
-        <p>
-          **This is just a fake portfolio. All the projects and contact details
-          given are not real.
-        </p>
-        <p>
-          © Created by Santiago Marin
-        </p>
+        <footer class="footer ">
+
+
+            <p>
+                © Created by Santiago Marin
+            </p>
 
 
 
-</footer>
-</div>
+        </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

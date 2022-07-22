@@ -1,13 +1,16 @@
+
+
+    
 .animate 
-  -webkit-animation-duration: 1s
-  animation-duration: 1s
+  -webkit-animation-duration: 0.75s
+  animation-duration: 0.75s
   -webkit-animation-fill-mode: both
   animation-fill-mode: both
 
 .one 
- -webkit-animation-delay: 1s
- -moz-animation-delay: 1s
- animation-delay: 1s
+ -webkit-animation-delay: 0.75s
+ -moz-animation-delay: 0.75s
+ animation-delay: 0.75s
 
 @-webkit-keyframes fadeInUp 
   from 
@@ -130,3 +133,18 @@
     background: $imageBg
     border-top: 4px solid $navRed
     color: $heyText
+
+.animation
+    animation: transitionIn 0.75s
+
+@keyframes transitionIn 
+  from 
+    opacity: 0
+    transform: rotateX('-10deg')
+  
+
+  to 
+    opacity: 1
+     transform: rotateX('0')
+
+

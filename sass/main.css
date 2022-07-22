@@ -1,0 +1,176 @@
+.work, .titleP, .hey {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: rgb(240, 240, 240);
+}
+
+.contact, .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(47, 53, 66);
+}
+
+.coffee, .web {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.one {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.navbar {
+  background-color: rgb(190, 49, 68);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.titleW {
+  font-size: 2.2rem;
+}
+
+.about {
+  height: 100vh;
+}
+
+.hey {
+  font-size: 4rem;
+}
+
+.web {
+  color: #be3144;
+}
+
+.buttoms {
+  text-align: center;
+}
+
+.projects {
+  text-align: center;
+  padding: 7rem 2rem;
+  background-color: rgb(69, 86, 125);
+}
+
+.titleP {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid rgb(240, 240, 240);
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.project {
+  box-shadow: 1px 1px 2px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+}
+
+.project-title {
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  background: rgb(48, 56, 65);
+}
+
+.contact {
+  height: 80vh;
+}
+
+.coffee {
+  color: rgb(240, 240, 240);
+  font-size: 2rem;
+}
+
+.work {
+  font-size: 4rem;
+}
+
+.contact-details {
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  color: rgb(240, 240, 240);
+}
+
+.footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: rgb(48, 56, 65);
+  border-top: 4px solid rgb(190, 49, 68);
+  color: rgb(240, 240, 240);
+}
+
+body {
+  -webkit-animation: transitionIn 2s;
+          animation: transitionIn 2s;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX("-10deg");
+  }
+  to {
+    opacity: 1;
+    opacity-transform: rotateX("0");
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX("-10deg");
+  }
+  to {
+    opacity: 1;
+    opacity-transform: rotateX("0");
+  }
+}/*# sourceMappingURL=main.css.map */

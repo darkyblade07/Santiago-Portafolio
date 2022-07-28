@@ -4,7 +4,7 @@
   color: rgb(240, 240, 240);
 }
 
-.contact, .about {
+.skill, .contact, .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,15 +19,15 @@
 }
 
 .animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .one {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -148,9 +148,9 @@
   color: rgb(240, 240, 240);
 }
 
-body {
-  -webkit-animation: transitionIn 2s;
-          animation: transitionIn 2s;
+.animation {
+  -webkit-animation: transitionIn 0.75s;
+          animation: transitionIn 0.75s;
 }
 
 @-webkit-keyframes transitionIn {

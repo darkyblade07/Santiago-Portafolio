@@ -179,5 +179,10 @@
 }
 
 .w {
-  width: 60%;
+  width: 60% !important;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=main.css.map */
